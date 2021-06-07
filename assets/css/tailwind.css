@@ -15,10 +15,6 @@ html {
   @apply overflow-x-hidden;
 }
 
-body {
-  @apply text-white;
-}
-
 button {
   @apply outline-none focus:outline-none;
 }
