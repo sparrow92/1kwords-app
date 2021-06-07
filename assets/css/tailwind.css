@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold mb-4;
+  }
+  h2 {
+    @apply text-xl font-semibold mb-2;
+  }
+}
+
+html {
+  @apply overflow-x-hidden;
+}
+
+body {
+  @apply text-white;
+}
+
+button {
+  @apply outline-none focus:outline-none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
